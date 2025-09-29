@@ -1,0 +1,27 @@
+x, y, z = 3, 5, 7
+
+a = (x == 3)           # x bằng 3 không? -> True
+b = (x < y)            # 3 < 5? -> True
+c = (x >= y)           # 3 >= 5? -> False
+d = (x <= y)           # 3 <= 5? -> True
+e = (x != y - 2)       # 3 khác 5 - 2 (3)? -> 3 != 3 -> False
+f = (x < 10)           # 3 < 10? -> True
+g = (x >= 0 and x < 10)  # 3 >= 0 và 3 < 10? -> True và True -> True
+h = (x < 0 and x < 10)    # 3 < 0 và 3 < 10? -> False và True -> False
+i = (x >= 0 and x < 2)    # 3 >= 0 và 3 < 2? -> True và False -> False
+j = (x < 0 or x < 10)     # 3 < 0 hoặc 3 < 10? -> False hoặc True -> True
+k = (x > 0 or x < 10)     # 3 > 0 hoặc 3 < 10? -> True hoặc True -> True
+l = (x < 0 or x > 10)     # 3 < 0 hoặc 3 > 10? -> False hoặc False -> False
+
+print(f"a = {a}")
+print(f"b = {b}")
+print(f"c = {c}")
+print(f"d = {d}")
+print(f"e = {e}")
+print(f"f = {f}")
+print(f"g = {g}")
+print(f"h = {h}")
+print(f"i = {i}")
+print(f"j = {j}")
+print(f"k = {k}")
+print(f"l = {l}")
